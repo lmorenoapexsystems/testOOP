@@ -7,6 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using testOOP.Logging;
 
 namespace testOOP
 {
@@ -49,6 +50,7 @@ namespace testOOP
             Console.WriteLine("Test: Homepage Load");
             HomePage homePage = new HomePage();
             homePage.LoadPage(); // asegurarse que imprima "Loading Home Page"
+            
         }
     }
 }
